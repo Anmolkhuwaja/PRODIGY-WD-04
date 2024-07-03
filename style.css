@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header CSS */
+.main{
+    display: flex;
+}
+
+.part1{
+    position: sticky;
+    top: 0;
+    width: 20%;
+    height: 100vh;
+    border-right: 10px solid#27a776;
+    background-color: #111418;
+
+}
+
+.part2{
+    width: 80%;
+    background: #000000;
+    text-align: center;
+}
+
+.profile{
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #27a776;
+    margin-left: 40px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.name{
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.name span{
+    color: #27a776;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+li{
+    margin: 20px 0px;
+}
+li:hover{
+    color: #27a776;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    padding: 0px 10px;
+}
+
+iconify-icon{
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+iconify-icon:hover{
+    color: #27a776;
+    cursor: pointer;
+}
+
+/* Home CSS */
+.headline{
+    color: #fff;
+    margin-top: 125px;
+    font-size: 36px;
+    padding: 0px 250px;
+    font-family: "Cardo", serif;
+}
+
+.summary{
+    color: #b2b2b4;
+    padding: 0px 180px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.hirebtn{
+    margin-top: 40px;
+    padding: 10px 30px;
+    background-color: #27a776;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #27a776;
+}
+
+.about{
+    padding-top: 15px;
+    margin-top: 130px;
+    text-align: center;
+    color: #fff;
+    font-family: "Cardo", serif;
+    font-size: 50px;
+}
+
+.about-parts{
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-profile{
+    height: 76vh;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.web{
+    color: white;
+    font-family: "Cardo", serif;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0px 50px;
+    margin-top: 60px;
+}
+
+.queto{
+    padding: 0px 50px;
+    color: white;
+    font-size: 44px;
+}
+
+.about-para{
+    padding: 0px 50px;
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.detail1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.detail2{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.detail3{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.detail4{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.icon{
+    color: #27a776;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.age{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.agee{
+    color: #b2b2b4;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/* Education */
+.education{
+    margin-top: 130px;
+    text-align: center;
+    color: #fff;
+    font-family: "Cardo", serif;
+    font-size: 50px;
+}
+
+.cards{
+    display: flex;
+    width: 90%;
+    margin-left: 55px;
+    height: 40vh;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card1{
+    border: 1px solid #27a776;
+    width: 50%;
+    height: 40vh;
+    border-radius: 7px;
+}
+
+.year{
+    background-color: #27a776;
+    color: #fff;
+    padding: 5px 5px;
+    margin-top: 50px;
+    width: 220px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.years{
+    background-color: #27a776;
+    color: #fff;
+    padding: 5px 5px;
+    margin-top: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.yearss{
+    background-color: #27a776;
+    color: #fff;
+    padding: 5px 5px;
+    margin-top: 50px;
+    width: 270px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+
+.degree{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -160px;
+}
+
+.degre{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -195px;
+}
+
+.degreee{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -55px;
+}
+
+.institue{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.card2{
+    margin-left: 10px;
+    border: 1px solid #27a776;
+    width: 50%;
+    height: 40vh;
+    border-radius: 7px;
+}
+
+.space{
+    margin-top: 50px;
+}
+
+.two{
+    display: flex;
+    margin-top: 50px;
+}
+
+.inputt{
+    width: 50%;
+    margin: 0px 30px;
+    height: 50px;
+    background-color: #111418;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: #27a776;
+    border: 0.5px solid #27a776;
+}
+
+.inputtt{
+    width: 94%;
+    margin: 0px 30px;
+    height: 50px;
+    background-color: #111418;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    outline: #27a776;
+    border: 0.5px solid #27a776;
+}
+
+.textare{
+    width: 94%;
+    margin: 0px 10px;
+    height: 160px;
+    background-color: #111418;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 20px; 
+    outline: #27a776;
+    border: 0.5px solid #27a776;
+}
+
+.msgbtn{
+    background-color: #27a776;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    border-top: 0.5px solid rgb(61, 61, 61);
+    background-color: #0D0D0D;
+}
+
+.footer-text{
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-text span{
+    font-weight: 700;
+}
+
+.iconss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.by{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.ancor{
+    color: #27a776;
+}
+
+.ancor:hover{
+    color: #0c704a;
+}
